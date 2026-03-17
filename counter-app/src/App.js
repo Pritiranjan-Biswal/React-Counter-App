@@ -24,6 +24,7 @@ function App() {
       <div className="box">
         <button onClick={decreaseHandler} className='bdecreaseHandler'>-</button>
         <div>
+
           {count}
         </div>
         <button onClick={increaseHandler}>
